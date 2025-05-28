@@ -14,10 +14,10 @@ app.use(express.json());
 
 // Database connection
 const db = mysql.createConnection({
-  host: process.env.DB_HOST || 'databasetest.cysrpetj7pax.us-east-1.rds.amazonaws.com',
-  user: process.env.DB_USER || 'admin',
-  password: process.env.DB_PASSWORD || 'alaadmin',
-  database: process.env.DB_NAME || 'databasetest'
+  host: process.env.DB_HOST || 'dbsakka-1.caav4ihyprvv.us-east-1.rds.amazonaws.com',
+  user: process.env.DB_USER || 'Sakka_Aymen',
+  password: process.env.DB_PASSWORD || 'Cloud2121*',
+  database: process.env.DB_NAME || 'dbsakka-1'
 });
 
 db.connect((err) => {
